@@ -48,7 +48,7 @@ webpack({
         new CopyWebpackPlugin([
             { from: './images' },
             { from: './index.html' },
-            { from: '../mock.json' },
+            { from: './mock.json' },
         ]),
         new ExtractTextPlugin("[name].css"),
     ]
