@@ -1,0 +1,46 @@
+.VendingMachine {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid #999;
+    width: 700px;
+}
+
+.VendingMachine-Products {
+    width: 500px;
+    border: 2px solid #666;
+}
+
+.VendingMachine-Row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.VendingMachine-Cell {
+    text-align: center;
+}
+
+.ProductImageContainer {
+    height: 50px;
+}
+
+.ProductImage {
+    height: 50px;
+}
+
+.ProductInfo {
+    font-size: 13px;
+    
+    &.Code {
+        font-size: 16px;
+        font-weight: 600;
+    }
+}
+
+// Control column
+
+.VendingMachine-ControlContainer {
+    width: 200px;
+    padding: 5px;
+}

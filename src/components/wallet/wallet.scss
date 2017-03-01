@@ -1,0 +1,18 @@
+.Wallet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.CurrencyImg {
+    cursor: pointer;
+    
+    &.Coin {
+        width: 50px;
+    }
+    
+    &.Note {
+        width: 80px;
+    }
+}
