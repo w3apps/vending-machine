@@ -1,6 +1,5 @@
 const webpack = require('webpack');
 const path = require('path');
-const fs = require('fs');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
 const StatsPlugin = require('stats-webpack-plugin');
@@ -20,7 +19,7 @@ webpack({
     output: {
         filename: '[name].js',
         chunkFilename: "[name].js",
-        path: './dist'
+        path: path.resolve('./dist')
     },
     module: {
         rules: [
